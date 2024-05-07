@@ -1,8 +1,8 @@
 from django.urls import path
 
 from suppliers.apps import SuppliersConfig
-from suppliers.views import SupplierCreateAPIView, SupplierListAPIView, SupplierRetrieveAPIView, SupplierUpdateAPIView, \
-    SupplierDestroyAPIView
+from suppliers.views import (SupplierCreateAPIView, SupplierListAPIView, SupplierRetrieveAPIView,
+                             SupplierUpdateAPIView, SupplierDestroyAPIView)
 
 app_name = SuppliersConfig.name
 
